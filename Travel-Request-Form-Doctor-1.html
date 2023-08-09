@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Getz Pharma Travelling and Event Management</title>
+		
+		<!-- Favicon Icon -->
+		<link rel="icon" href="assets/images/favicon.gif" type="image/gif" sizes="32x32">
+
+		<!-- Bootstrap -->
+		<link href="assets/css/bootstrap.css" rel="stylesheet">
+		
+		<!-- Custom Css -->
+		<link href="assets/css/style.css" rel="stylesheet">
+		
+		<!-- Date Time Picker Css -->
+		<link href="assets/css/bootstrap-datetimepicker.css" rel="stylesheet">
+		
+		<!-- Custom Responsive Table css -->
+    	<link href="assets/css/responsive-table.css" rel="stylesheet">
+		
+		<!-- Multi Select Dropdown -->
+		<link rel="stylesheet" href="assets/css/chosen.css">
+		
+		
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<!-- Display Flex Starts here -->
+		<div class="display-flex">
+			<!-- menu Starts here -->
+			<div class="menu">
+				<!-- logo Starts here -->
+				<div class="logo"><img src="assets/images/logo.png" alt="logo"/></div>
+				<!-- logo Ends here -->
+				<!-- navigation Starts here -->
+				<img src="assets/images/menu-icon.png" class="menu-icon" alt="icon"/>
+				<ul class="navigation">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Event Request Form</a>
+						<ul>
+							<li><a href="#">Accompany with Doctor</a></li>
+							<li><a href="Travel-Request-Form-Doctor-1.html" class="active-nav">Doctor</a></li>
+							<li><a href="#">Employee</a></li>
+							<li><a href="#">Speaker</a></li>
+							<li><a href="#">Guest</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Other Than Event Request</a></li>
+					<li><a href="#">Invoice Recordings</a></li>
+					<li><a href="#">My Submittes Request</a></li>
+					<li><a href="#">My Pending Approvals</a></li>
+					<li><a href="#">My Approval History</a></li>
+					<li><a href="#">Master Setups</a></li>
+					<li><a href="#">Feedback</a></li>
+				</ul>
+				<!-- navigation Ends here -->
+			</div>
+			<!-- menu Ends here -->
+			<!-- Main Content Starts here -->
+			<div class="main-content">
+				<!-- Container Starts Here -->
+				<div class="container">
+					<div class="row">
+
+						<!-- Top Header Starts here -->
+						<div class="col-sm-12 col-md-12">
+							<div class="top-header">Sales Force Application</div>
+						</div>
+						<!-- Top Header Ends here -->
+
+						<!-- Page Heading Starts here -->
+						<div class="col-sm-12 col-md-12">
+							<div class="page-heading">Travel Request Form</div>
+						</div>
+						<!-- Page Heading Ends here -->
+
+						<!-- Event and Travelling Type: here -->
+						<div class="col-sm-6 col-md-3">
+							<div class="lbl-1 margin-top">Event and Travelling Type:</div>
+							<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>Event</option></select></div>
+						</div>
+						<!-- Event and Travelling Type: Ends here -->
+						<!-- Section Starts Here -->
+						<div class="col-sm-12 col-md-12">
+							<div class="gen-box-1">
+								<!-- Event Information Starts Here -->
+								<div class="gen-box-1">
+									<div class="section-heading-1">Event Information</div>
+									<div class="row">
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Event ID</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="Auto Generated" disabled/></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="gen-input"><div class="lbl-2">Budgeted :<div class="chkbox-inner"><div class="gen-chkbox-opt">No</div><input type="checkbox" id="gen-chkbox" class="gen-chkbox" style="display:none"/><label for="gen-chkbox" class="toggle"><span></span></label><div class="gen-chkbox-opt">Yes</div></div></div></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">HOB (as per ASP)</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1"/></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Event From Date</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1 datepicker"/><img class="input-date-icon" src="assets/images/calendar-icon.png" alt="" /></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Event To Date</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1 datepicker"/><img class="input-date-icon" src="assets/images/calendar-icon.png" alt="" /></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Number of Days</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="3" disabled/></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">City Name</div>
+											<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>Karachi</option></select></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Total Participants</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="30"/></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Participant Entered </div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="15" disabled/></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Residents No.</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="20" disabled/></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Non-Residents No.</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="10" disabled/></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<input type="button" class="gen-btn blue" value="Save Event"/>
+										</div>
+									</div>
+								</div>
+								<!-- Event Information Ends Here -->
+								<!-- Meeting / Event Required : Starts Here -->
+								<div class="gen-box-1">
+									<div class="row">
+										<div class="col-md-4">
+											<div class="lbl-3">Meeting / Event Required :<div class="chkbox-inner"><div class="gen-chkbox-opt">No</div><input type="checkbox" id="gen-chkbox-1" class="gen-chkbox" style="display:none"/><label for="gen-chkbox-1" class="toggle"><span></span></label><div class="gen-chkbox-opt">Yes</div></div></div>
+										</div>
+										<div class="col-md-4">
+											<div class="lbl-3">Travel Required :<div class="chkbox-inner"><div class="gen-chkbox-opt">No</div><input type="checkbox" id="gen-chkbox-2" class="gen-chkbox" style="display:none"/><label for="gen-chkbox-2" class="toggle"><span></span></label><div class="gen-chkbox-opt">Yes</div></div></div>
+										</div>
+										<div class="col-md-4">
+											<div class="lbl-3">Hotel Stay Rquired :<div class="chkbox-inner"><div class="gen-chkbox-opt">No</div><input type="checkbox" id="gen-chkbox-3" class="gen-chkbox" style="display:none"/><label for="gen-chkbox-3" class="toggle"><span></span></label><div class="gen-chkbox-opt">Yes</div></div></div>
+										</div>
+									</div>
+								</div>
+								<!-- Meeting / Event Required : Ends Here -->
+								<!-- Meeting / Event Requirement Starts Here -->
+								<div class="gen-box-1">
+									<div class="add-new"><a href="#" class="blue-txt"><img src="assets/images/copy-from-previous-event-day-icon.png" alt="icon"/>Copy from previous Event Day</a></div>
+									<div class="margin-extra"></div>
+									<div class="section-heading-1">Meeting / Event Requirement</div>
+									<div class="row">
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Day Of Event</div>
+											<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>Karachi</option></select></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Meeting Date</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1 datetimepicker"/><img class="input-date-icon" src="assets/images/calendar-icon.png" alt="" /></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Day</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="Wednesday" disabled/></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="row">
+												<div class="col-sm-6">
+													<div class="lbl-1">Start Time</div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1 timepicker"/><img class="input-date-icon" src="assets/images/calendar-icon.png" alt="" /></div>
+												</div>
+												<div class="col-sm-6">
+													<div class="lbl-1">End Time</div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1 timepicker"/><img class="input-date-icon" src="assets/images/calendar-icon.png" alt="" /></div>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Setup</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="Class Room"/></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">No. Of Persons</div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="3"/></div>
+										</div>
+										<div class="col-sm-6 col-md-6">
+											<div class="lbl-1">Audio Visual / Other</div>
+											<div class="gen-input"><select data-placeholder="Select Audio Visual / Other" multiple class="chosen-select chosen-select-no-results gen-select-1" tabindex="11">
+												<option value=""></option>
+												<option>American Black Bear</option>
+												<option>Asiatic Black Bear</option>
+												<option>Brown Bear</option>
+												<option>Giant Panda</option>
+												<option>Sloth Bear</option>
+												<option>Sun Bear</option>
+												<option>Polar Bear</option>
+												<option>Spectacled Bear</option>
+											</select></div>
+										</div>
+										<div class="col-sm-6 col-md-6">
+											<div class="lbl-1">Meals</div>
+											<div class="gen-input"><select data-placeholder="Select Meals" multiple class="chosen-select chosen-select-no-results gen-select-1" tabindex="11">
+												<option value=""></option>
+												<option>American Black Bear</option>
+												<option>Asiatic Black Bear</option>
+												<option>Brown Bear</option>
+												<option>Giant Panda</option>
+												<option>Sloth Bear</option>
+												<option>Sun Bear</option>
+												<option>Polar Bear</option>
+												<option>Spectacled Bear</option>
+											</select></div>
+										</div>
+										<div class="col-sm-6 col-md-6">
+											<div class="lbl-1">Excursion / Activities</div>
+											<div class="gen-input"><select data-placeholder="Select Excursion / Activities" multiple class="chosen-select chosen-select-no-results gen-select-1" tabindex="11">
+												<option value=""></option>
+												<option>American Black Bear</option>
+												<option>Asiatic Black Bear</option>
+												<option>Brown Bear</option>
+												<option>Giant Panda</option>
+												<option>Sloth Bear</option>
+												<option>Sun Bear</option>
+												<option>Polar Bear</option>
+												<option>Spectacled Bear</option>
+											</select></div>
+										</div>
+										<div class="col-sm-6 col-md-6">
+											<div class="lbl-1">Preferred Hotel (up to 3)</div>
+											<div class="gen-input"><select data-placeholder="Select Preferred Hotel (up to 3)" multiple class="chosen-select chosen-select-no-results gen-select-1" tabindex="11">
+												<option value=""></option>
+												<option>American Black Bear</option>
+												<option>Asiatic Black Bear</option>
+												<option>Brown Bear</option>
+												<option>Giant Panda</option>
+												<option>Sloth Bear</option>
+												<option>Sun Bear</option>
+												<option>Polar Bear</option>
+												<option>Spectacled Bear</option>
+											</select></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Per Person Event Estimated Cost </div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="5000" disabled/></div>
+										</div>
+										<div class="col-sm-6 col-md-3">
+											<div class="lbl-1">Total Event Estimated Cost </div>
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="15000" disabled/></div>
+										</div>
+										<div class="col-md-12">
+											<div class="lbl-1">Special Instruction Note </div>
+											<div class="gen-input"><textarea class="gen-txtarea-1"></textarea></div>
+										</div>
+										<div class="col-md-12 text-center">
+											<input type="button" class="gen-btn blue" value="Add"/>
+										</div>
+										<div class="col-md-12">
+											<table class="gen-table-1 table-striped margin-top">
+												<thead>
+													<tr>
+														<th class="text-center" scope="col" title="Day">Day</th>
+														<th class="text-center" scope="col" title="Request Date">Request Date</th>
+														<th class="text-center" scope="col" title="Setup Type">Setup Type</th>
+														<th class="text-center" scope="col" title="No. of Persons">No. of Persons</th>
+														<th class="text-center" scope="col" title="Timings">Timings</th>
+														<th class="text-center" scope="col" title="Audio Visual / Other">Audio Visual / Other</th>
+														<th class="text-center" scope="col" title="Meals">Meals</th>
+														<th scope="col" title="Excursion / Activites">Excursion / Activites</th>
+														<th class="text-center" scope="col" title="Estimated Cost">Estimated Cost</th>
+														<th scope="col" title="Action">Action</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td class="text-center" data-label="Day">1</td>
+														<td class="text-center" data-label="Request Date">20-01-2021</td>
+														<td class="text-center" data-label="Setup Type">Class Room</td>
+														<td class="text-center" data-label="No. of Persons">5</td>
+														<td class="text-center" data-label="Timings">09:00 AM - 06:00 PM</td>
+														<td class="text-center" data-label="Audio Visual / Other">Multimedia + Screen + Flip Chart</td>
+														<td class="text-center" data-label="Meals">Morning Tea + Lunch</td>
+														<td data-label="Excursion / Activites">Gala Dinner + Born Fire</td>
+														<td class="text-center" data-label="Estimated Cost">25000</td>
+														<td data-label="Action"><input type="button" class="gen-btn-sm green" value="Edit"/><input type="button" class="gen-btn-sm red" value="Delete"/></td>
+													</tr>
+													<tr>
+														<td class="text-center" data-label="Day">2</td>
+														<td class="text-center" data-label="Request Date">20-01-2021</td>
+														<td class="text-center" data-label="Setup Type">Round Table</td>
+														<td class="text-center" data-label="No. of Persons">6</td>
+														<td class="text-center" data-label="Timings">09:00 AM - 03:00 PM</td>
+														<td class="text-center" data-label="Audio Visual / Other">Multimedia + Screen</td>
+														<td class="text-center" data-label="Meals">Morning Tea</td>
+														<td data-label="Excursion / Activites">Gala Dinner + Musical Night</td>
+														<td class="text-center" data-label="Estimated Cost">30000</td>
+														<td data-label="Action"><input type="button" class="gen-btn-sm green" value="Edit"/><input type="button" class="gen-btn-sm red" value="Delete"/></td>
+													</tr>
+													<tr>
+														<td class="text-center" data-label="Day">3</td>
+														<td class="text-center" data-label="Request Date">20-01-2021</td>
+														<td class="text-center" data-label="Setup Type">Theater Room</td>
+														<td class="text-center" data-label="No. of Persons">7</td>
+														<td class="text-center" data-label="Timings">09:00 AM - 06:00 PM</td>
+														<td class="text-center" data-label="Audio Visual / Other">Multimedia + Screen + Color Mic</td>
+														<td class="text-center" data-label="Meals">Lunch</td>
+														<td data-label="Excursion / Activites">Gala Dinner + Musical Night</td>
+														<td class="text-center" data-label="Estimated Cost">40000</td>
+														<td data-label="Action"><input type="button" class="gen-btn-sm green" value="Edit"/><input type="button" class="gen-btn-sm red" value="Delete"/></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="col-md-6">
+
+										</div>
+										<div class="col-sm-6 col-md-3 margin-top text-right">
+											<div class="lbl-1 margin-top-2">Total Estimated Cost (PKR):</div>
+										</div>
+										<div class="col-sm-6 col-md-3 margin-top">
+											<div class="gen-input"><input type="text" class="gen-txtbox-1" value="Rs - 95000"/></div>
+										</div>
+									</div>
+								</div>
+								<!-- Meeting / Event Requirement Ends Here -->
+								<!-- Tab Controls Starts Here -->
+								<div class="gen-box-1">
+									<div class="add-new"><a href="#" class="blue-txt"><img src="assets/images/copy-from-previous-event-day-icon.png" alt="icon"/>Copy from previous Customer</a></div>
+									<ul class="nav nav-tabs">
+										<li class="active"><a data-toggle="tab" href="#menu1">Participant Details</a></li>
+										<li><a data-toggle="tab" href="#menu2">Travel Details</a></li>
+										<li><a data-toggle="tab" href="#menu3">Hotel Details</a></li>
+										<li><a data-toggle="tab" href="#menu4">Product Share Details</a></li>
+										<li><a data-toggle="tab" href="#menu5">Costing</a></li>
+									</ul>
+									<div class="tab-content">
+										<div  id="menu1" class="gen-box-1 tab-pane fade in active">
+											<div class="section-heading-1">Teams and Participant Details</div>
+											<div class="row">
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Participant Type <span>*</span></div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>Doctor</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Priority <span>*</span></div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>First Priority</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Resident Type</div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>Resident</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Gender</div>
+													<div class="gen-input"><div class="gen-radio"><input type="radio"/>Male</div><div class="gen-radio" ><input type="radio" />Female</div></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">SFA Code / Doctor Name <span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="355 - AZHAR KHAN"/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Speciality <span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="CARDIOLOGIST"/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Business Unit <span>*</span></div>
+													<div class="gen-input"><select data-placeholder="Select Business Unit" multiple class="chosen-select chosen-select-no-results gen-select-1" tabindex="11">
+														<option value=""></option>
+														<option>A 1</option>
+														<option>A 2</option>
+														<option>A 3</option>
+													</select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-2"><div class="gen-checkbox"><input type="checkbox" /></div>Select All Teams</div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Territory Code <span>*</span></div>
+													<div class="gen-input"><select data-placeholder="Select Territory Code" multiple class="chosen-select chosen-select-no-results gen-select-1" tabindex="11">
+														<option value=""></option>
+														<option>0075 LANDHI C AREA</option>
+														<option>0051 - 100 QTR - KORANGI</option>
+													</select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Town</div>
+													<div class="gen-input">
+														<ul class="town">
+															<li>0075 LANDHI C AREA</li>
+															<li>0051 - 100 QTR - KORANGI</li>
+														</ul>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Mobile No <span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="0333-1234567"/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-2">Equal Distribution on <br /> All Teams of Common Products :<div class="chkbox-inner"><div class="gen-chkbox-opt">No</div><input type="checkbox" id="gen-chkbox-9" class="gen-chkbox" style="display:none"/><label for="gen-chkbox-9" class="toggle"><span></span></label><div class="gen-chkbox-opt">Yes</div></div></div>
+												</div>
+
+											</div>	
+										</div>
+										<div  id="menu2" class="gen-box-1 tab-pane fade">
+											<div class="section-heading-1">Travel Detail</div>
+											<div class="row">
+												<div class="col-md-12 margin-bottom">
+													<div class="lbl-3">Travel Required<div class="chkbox-inner"><div class="gen-chkbox-opt">No</div><input type="checkbox" id="gen-chkbox-11" class="gen-chkbox" style="display:none"/><label for="gen-chkbox-11" class="toggle"><span></span></label><div class="gen-chkbox-opt">Yes</div></div></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Mode of Payment </div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>BTC</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">From </div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>Karachi</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">To </div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>Karachi</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Travel By </div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>Air</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Travel Class </div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>Economy</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Departure On</div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1 datetimepicker"/><img class="input-date-icon" src="assets/images/calendar-icon.png" alt="" /></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Estimated Fare (PKR)</div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="Rs - 8500"/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<input type="button" class="gen-btn blue" value="Add Route"/>
+												</div>
+												<div class="col-md-12">
+													<table class="gen-table-1 table-striped margin-top">
+														<thead>
+															<tr>
+																<th class="text-center" scope="col" title="From City">From City</th>
+																<th class="text-center" scope="col" title="To City">To City</th>
+																<th class="text-center" scope="col" title="Dept Date">Dept Date</th>
+																<th class="text-center" scope="col" title="Mode of Payment">Mode of Payment</th>
+																<th class="text-center" scope="col" title="Travel By">Travel By</th>
+																<th class="text-center" scope="col" title="Travel Class">Travel Class</th>
+																<th class="text-center" scope="col" title="Estimated Fare">Estimated Fare</th>
+																<th scope="col" title="Action">Action</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="text-center" data-label="From City">Karachi</td>
+																<td class="text-center" data-label="To City">Islamabad</td>
+																<td class="text-center" data-label="Dept Date">28-01-2020 16:00</td>
+																<td class="text-center" data-label="Mode of Payment">BTC</td>
+																<td class="text-center" data-label="Travel By">By Air</td>
+																<td class="text-center" data-label="Travel Class">Economy Class</td>
+																<td class="text-center" data-label="Estimated Fare">8500</td>
+																<td data-label="Action"><input type="button" class="gen-btn-sm green" value="Edit"/><input type="button" class="gen-btn-sm red" value="Delete"/></td>
+															</tr>
+															<tr>
+																<td class="text-center" data-label="From City">Islamabad</td>
+																<td class="text-center" data-label="To City">Karachi</td>
+																<td class="text-center" data-label="Dept Date">28-01-2020 16:00</td>
+																<td class="text-center" data-label="Mode of Payment">BTC</td>
+																<td class="text-center" data-label="Travel By">By Air</td>
+																<td class="text-center" data-label="Travel Class">Economy Class</td>
+																<td class="text-center" data-label="Estimated Fare">8500</td>
+																<td data-label="Action"><input type="button" class="gen-btn-sm green" value="Edit"/><input type="button" class="gen-btn-sm red" value="Delete"/></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="col-md-6">
+
+												</div>
+												<div class="col-sm-6 col-md-3 margin-top text-right">
+													<div class="lbl-1 margin-top-2">Total Estimated Fare (PKR):</div>
+												</div>
+												<div class="col-sm-6 col-md-3 margin-top">
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="Rs - 17000"/></div>
+												</div>
+											</div>	
+										</div>
+										<div  id="menu3" class="gen-box-1 tab-pane fade">
+											<div class="section-heading-1">Hotel Booking Details</div>
+											<div class="row">
+												<div class="col-md-12 margin-bottom">
+													<div class="lbl-3">Hotel Stay Rquired :<div class="chkbox-inner"><div class="gen-chkbox-opt">No</div><input type="checkbox" id="gen-chkbox-15" class="gen-chkbox" style="display:none"/><label for="gen-chkbox-15" class="toggle"><span></span></label><div class="gen-chkbox-opt">Yes</div></div></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Mode of Payment <span>*</span></div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>Full BTC</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">City <span>*</span></div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>Karachi</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Check In Date.<span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1 datetimepicker"/><img class="input-date-icon" src="assets/images/calendar-icon.png" alt="" /></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Check Out Date.<span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1 datetimepicker"/><img class="input-date-icon" src="assets/images/calendar-icon.png" alt="" /></div>
+												</div>
+												
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Preferred Hotel (up to 3) </div>
+													<div class="gen-input"><select data-placeholder="Select Preferred Hotel (up to 3)" multiple class="chosen-select chosen-select-no-results gen-select-1" tabindex="11">
+														<option value=""></option>
+														<option>Ramada</option>
+														<option>PC</option>
+														<option>Marriot</option>
+													</select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Total Night Stay </div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="5"/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Rooms Required</div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="01"/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Room Type.<span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="Single Room"/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-2">Airport Pickup & Drop.<span>*</span><div class="chkbox-inner"><div class="gen-chkbox-opt">No</div><input type="checkbox" id="gen-chkbox-12" class="gen-chkbox" style="display:none"/><label for="gen-chkbox-12" class="toggle"><span></span></label><div class="gen-chkbox-opt">Yes</div></div></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Estimated Room Rent (PKR)</div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="240,000"/></div>
+												</div>
+												<div class="col-sm-6 col-md-6 text-right">
+													<input type="button" class="gen-btn blue" value="Add"/>
+												</div>
+												<div class="col-md-12">
+													<table class="gen-table-1 table-striped margin-top">
+														<thead>
+															<tr>
+																<th class="text-center" scope="col" title="City">City</th>
+																<th class="text-center" scope="col" title="Hotel Name">Hotel Name</th>
+																<th class="text-center" scope="col" title="Check In Date">Check In Date</th>
+																<th class="text-center" scope="col" title="Check Out Date">Check Out Date</th>
+																<th class="text-center" scope="col" title="Room Type">Room Type</th>
+																<th class="text-center" scope="col" title="Airport Drop">Airport Drop</th>
+																<th class="text-center" scope="col" title="Estimated Fare">Estimated Fare</th>
+																<th class="text-center" scope="col" title="Total Night Stay">Total Night Stay</th>
+																<th scope="col" title="Action">Action</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="text-center" data-label="City">Islamabad</td>
+																<td class="text-center" data-label="Hotel Name">Hotel Ramada</td>
+																<td class="text-center" data-label="Check In Date">28-01-2020 16:00</td>
+																<td class="text-center" data-label="Check Out Date">30-01-2021 13:00</td>
+																<td class="text-center" data-label="Room Type">Single</td>
+																<td class="text-center" data-label="Airport Drop">Yes</td>
+																<td class="text-center" data-label="Estimated Fare">240,000</td>
+																<td class="text-center" data-label="Total Night Stay">3</td>
+																<td data-label="Action"><input type="button" class="gen-btn-sm green" value="Edit"/><input type="button" class="gen-btn-sm red" value="Delete"/></td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+												<div class="col-md-6">
+
+												</div>
+												<div class="col-sm-6 col-md-3 margin-top text-right">
+													<div class="lbl-1 margin-top-2">Total Estimated Fare (PKR):</div>
+												</div>
+												<div class="col-sm-6 col-md-3 margin-top">
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="Rs 240,000"/></div>
+												</div>
+											</div>	
+										</div>
+										<div  id="menu4" class="gen-box-1 tab-pane fade">
+											<div class="section-heading-1">Product and Share Information</div>
+											<div class="row">
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Team<span>*</span></div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>A1</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Product <span>*</span></div>
+													<div class="gen-input"><select class="gen-select-1"><option>Select</option><option>CLT-TAB-OXL-Claritex XL Tab 500</option></select></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Share % <span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="50"/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">M&P Chemist <span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value=""/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Stockiest <span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value=""/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">HO Customer <span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value=""/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<input type="button" class="gen-btn blue" value="Add"/>
+												</div>
+												<div class="col-md-12">
+													<table class="gen-table-1 table-striped margin-top">
+														<thead>
+															<tr>
+																<th class="text-center" scope="col" title="Team">Team</th>
+																<th class="text-center" scope="col" title="Product">Product</th>
+																<th class="text-center" scope="col" title="M&P Chemist">M&P Chemist</th>
+																<th class="text-center" scope="col" title="Stockiest">Stockiest</th>
+																<th class="text-center" scope="col" title="Customer">Customer</th>
+																<th class="text-center" scope="col" title="Activity Share">Activity Share</th>
+																<th scope="col" title="Action">Action</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="text-center" data-label="Team">A1</td>
+																<td class="text-center" data-label="Product">SVS - TAB - 050 Savesto 50 mg</td>
+																<td class="text-center" data-label="M&P Chemist">31601-70227500 Jawwad Pharmacy</td>
+																<td class="text-center" data-label="Stockiest"></td>
+																<td class="text-center" data-label="Customer"></td>
+																<td class="text-center" data-label="Activity Share">50</td>
+																<td data-label="Action"><input type="button" class="gen-btn-sm red" value="Delete"/></td>
+															</tr>
+															<tr>
+																<td class="text-center" data-label="Team">A2</td>
+																<td class="text-center" data-label="Product">LPG  - TAB - 010 Lipiget Tab10 mg</td>
+																<td class="text-center" data-label="M&P Chemist">31601-70227500 Jawwad Pharmacy</td>
+																<td class="text-center" data-label="Stockiest"></td>
+																<td class="text-center" data-label="Customer"></td>
+																<td class="text-center" data-label="Activity Share">50</td>
+																<td data-label="Action"><input type="button" class="gen-btn-sm red" value="Delete"/></td>
+															</tr>
+
+														</tbody>
+													</table>
+												</div>
+											</div>	
+										</div>
+										<div  id="menu5" class="gen-box-1 tab-pane fade">
+											<div class="section-heading-1">Services and Costing</div>
+											<div class="row">
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Stay Cost (PKR) <span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="RS-20000"/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Air Ticketing Cost (PKR)<span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="RS-17000"/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Event Cost (PKR)<span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="RS-10000"/></div>
+												</div>
+												<div class="col-sm-6 col-md-3">
+													<div class="lbl-1">Total Estimated Cost (PKR)<span>*</span></div>
+													<div class="gen-input"><input type="text" class="gen-txtbox-1" value="RS-137000"/></div>
+												</div>
+												<div class="col-md-12 text-right">
+													<input type="button" class="gen-btn blue" value="Add"/>
+												</div>
+											</div>	
+										</div>
+									</div>
+									<div class="text-right">
+										<input type="button" class="gen-btn blue" value="Next"/>
+									</div>
+
+								</div>
+								<!-- Tab Controls Ends Here -->
+								<!-- Participants Details - (First Priority) Starts Here -->
+								<div class="gen-box-1">
+									<div class="section-heading-1">Participants Details - (First Priority)</div>
+									<table class="gen-table-1 table-striped">
+										<thead>
+											<tr>
+												<th scope="col" title="S.No">S.No</th>
+												<th scope="col" title="Traveller Type">Traveller Type</th>
+												<th class="text-center" scope="col" title="BU Share">BU Share</th>
+												<th class="text-center" scope="col" title="Product Share">Product Share</th>
+												<th class="text-center" scope="col" title="Territory Codes">Territory Codes</th>
+												<th class="text-center" scope="col" title="Estimated Cost">Estimated Cost</th>
+												<th scope="col" title="Travel Details">Travel Details</th>
+												<th scope="col" title="Hotel Details">Hotel Details</th>
+												<th scope="col" title="Action">Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td data-label="S.No">1</td>
+												<td data-label="Traveller Type">Traveller Type: Corporate Doctor<br /><br />Doctor ID: 31 - Azhar Khan</td>
+												<td class="text-center" data-label="BU Share">A2: 25%<br /><br />A3: 25%<br /><br />B5: 25%<br /><br />H7: 25%</td>
+												<td class="text-center" data-label="Product Share">All Products</td>
+												<td class="text-center" data-label="Territory Codes">All Territories</td>
+												<td class="text-center" data-label="Estimated Cost">65,000</td>
+												<td data-label="Travel Details">Air Ticket Required:Yes<br /><br />Travel Details:<br /><br />(1) Karachi to Islamabad (07-JAN-21)<br />Traveller Class: Economy Plus<br />Travelling Mode: By Air<br />Mode of Payment:BTC</td>
+												<td data-label="Hotel Details">Hotel Booking Required: Yes<br /><br />Booking Details:<br />(1) Islamabad (07-Jan-2021<br />16:37 to 14-Jan-2021 16:37)<br />Pick and Drop: Yes<br />Room Type: Single<br />Mode of Payment: BTC - BED<br />AND BREAKFAST</td>
+												<td data-label="Action"><input type="button" class="gen-btn-sm green" value="Edit"/><input type="button" class="gen-btn-sm red" value="Delete"/><input type="button" class="gen-btn-sm yellow" value="Not Travelling"/></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<!-- Participants Details - (First Priority) Ends Here -->
+								<!-- Participants Details - (Second Priority) Starts Here -->
+								<div class="gen-box-1">
+									<div class="section-heading-1">Participants Details - (Second Priority)</div>
+									<table class="gen-table-1 table-striped">
+										<thead>
+											<tr>
+												<th scope="col" title="S.No">S.No</th>
+												<th scope="col" title="Traveller Type">Traveller Type</th>
+												<th class="text-center" scope="col" title="BU Share">BU Share</th>
+												<th class="text-center" scope="col" title="Product Share">Product Share</th>
+												<th class="text-center" scope="col" title="Territory Codes">Territory Codes</th>
+												<th class="text-center" scope="col" title="Estimated Cost">Estimated Cost</th>
+												<th scope="col" title="Travel Details">Travel Details</th>
+												<th scope="col" title="Hotel Details">Hotel Details</th>
+												<th scope="col" title="Action">Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td data-label="S.No">1</td>
+												<td data-label="Traveller Type">Traveller Type: Corporate Doctor<br /><br />Doctor ID: 31 - Azhar Khan</td>
+												<td class="text-center" data-label="BU Share">A2: 25%<br /><br />A3: 25%<br /><br />B5: 25%<br /><br />H7: 25%</td>
+												<td class="text-center" data-label="Product Share">All Products</td>
+												<td class="text-center" data-label="Territory Codes">All Territories</td>
+												<td class="text-center" data-label="Estimated Cost">65,000</td>
+												<td data-label="Travel Details">Air Ticket Required:Yes<br /><br />Travel Details:<br /><br />(1) Karachi to Islamabad (07-JAN-21)<br />Traveller Class: Economy Plus<br />Travelling Mode: By Air<br />Mode of Payment:BTC</td>
+												<td data-label="Hotel Details">Hotel Booking Required: Yes<br /><br />Booking Details:<br />(1) Islamabad (07-Jan-2021<br />16:37 to 14-Jan-2021 16:37)<br />Pick and Drop: Yes<br />Room Type: Single<br />Mode of Payment: BTC - BED<br />AND BREAKFAST</td>
+												<td data-label="Action"><input type="button" class="gen-btn-sm green" value="Edit"/><input type="button" class="gen-btn-sm red" value="Delete"/><input type="button" class="gen-btn-sm yellow" value="Not Travelling"/></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<!-- Participants Details - (Second Priority) Ends Here -->
+								<!-- Approval Hierarchy Starts Here -->
+								<div class="gen-box-2">
+									<div class="section-heading-2">Approval Hierarchy</div>
+									<table class="gen-table-2 table-striped">
+										<thead>
+											<tr>
+												<th scope="col" title="BU">BU</th>
+												<th scope="col" title="Approver">Approver</th>
+												<th scope="col" title="Designation">Designation</th>
+												<th scope="col" title="Role">role</th>
+												<th scope="col" title="Territory">Territory</th>
+												<th scope="col" title="Action Type">Action Type</th>
+												<th scope="col" title="Action">Action</th>
+												<th scope="col" title="Action On">Action On</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td data-label="BU">-</td>
+												<td data-label="Approver">Salim (2170)</td>
+												<td data-label="Designation">Asst Manager (H07)</td>
+												<td data-label="Role">-</td>
+												<td data-label="Territory">-</td>
+												<td data-label="Action Type">Creator</td>
+												<td data-label="Action">-</td>
+												<td data-label="Action On">-</td>
+											</tr>
+											<tr>
+												<td data-label="BU">ALL</td>
+												<td data-label="Approver">Travel Department</td>
+												<td data-label="Designation">-</td>
+												<td data-label="Role">TRAVEL DEPT</td>
+												<td data-label="Territory">-</td>
+												<td data-label="Action Type">Reviewer</td>
+												<td data-label="Action">-</td>
+												<td data-label="Action On">-</td>
+											</tr>
+											<tr>
+												<td data-label="BU">ALL</td>
+												<td data-label="Approver">Muneeb Ahmed Khan (8629)</td>
+												<td data-label="Designation">Senior Exec. (H05)</td>
+												<td data-label="Role">CED DEPT</td>
+												<td data-label="Territory">-</td>
+												<td data-label="Action Type">CED Reviewer</td>
+												<td data-label="Action">-</td>
+												<td data-label="Action On">-</td>
+											</tr>
+											<tr>
+												<td data-label="BU">ALL</td>
+												<td data-label="Approver">Shaharyar Akhter Faridy (6008)</td>
+												<td data-label="Designation">Manager (H11)</td>
+												<td data-label="Role">CED DEPT</td>
+												<td data-label="Territory">-</td>
+												<td data-label="Action Type">CED Reviewer</td>
+												<td data-label="Action">-</td>
+												<td data-label="Action On">-</td>
+											</tr>
+											<tr>
+												<td data-label="BU">SBU1</td>
+												<td data-label="Approver">Juman Khan (7202)</td>
+												<td data-label="Designation">Div. Head (M16)</td>
+												<td data-label="Role">DMS</td>
+												<td data-label="Territory">SBU1</td>
+												<td data-label="Action Type">Approver</td>
+												<td data-label="Action">-</td>
+												<td data-label="Action On">-</td>
+											</tr>
+											<tr>
+												<td data-label="BU">SBU2</td>
+												<td data-label="Approver">Dr. Noman-Ud-Din (692)</td>
+												<td data-label="Designation">Div. Head (M16)</td>
+												<td data-label="Role">DMS</td>
+												<td data-label="Territory">SBU2</td>
+												<td data-label="Action Type">Approver</td>
+												<td data-label="Action">-</td>
+												<td data-label="Action On">-</td>
+											</tr>
+											<tr>
+												<td data-label="BU">ALL</td>
+												<td data-label="Approver">Dr. Syed Khurram Hussein (4745)</td>
+												<td data-label="Designation">Senior Manager (M15) -</td>
+												<td data-label="Role">Final Approver</td>
+												<td data-label="Territory">-</td>
+												<td data-label="Action Type">Final Approver</td>
+												<td data-label="Action">-</td>
+												<td data-label="Action On">-</td>
+											</tr>
+											<tr>
+												<td data-label="BU">ALL</td>
+												<td data-label="Approver">Travel Department</td>
+												<td data-label="Designation">-</td>
+												<td data-label="Role">TRAVEL DEPT</td>
+												<td data-label="Territory">-</td>
+												<td data-label="Action Type">Costing</td>
+												<td data-label="Action">-</td>
+												<td data-label="Action On">-</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<!-- Approval Hierarchy Ends Here -->
+							</div>
+							<div class="text-right margin-bottom">
+								<input type="button" class="gen-btn yellow" value="Revert"/>
+								<input type="button" class="gen-btn blue" value="Submit"/>
+							</div>
+						</div>
+						<!-- Section Ends Here -->
+
+
+
+					</div>
+				</div>
+				<!-- Container Ends Here -->
+			</div>
+			<!-- Main Content Ends here -->
+			
+		</div>
+		<!-- Display Flex Ends here -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="assets/js/jquery.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="assets/js/bootstrap.js"></script>
+		
+		<!-- Date Time picker --> 
+		<script src="assets/js/moment-with-locales.js"></script>
+		<script src="assets/js/bootstrap-datetimepicker.js"></script>
+		<script>
+		$( function() {
+			$( ".datepicker" ).datetimepicker({
+					viewMode: 'years',
+					format: 'DD/MM/YYYY'
+				});
+			$( ".datetimepicker" ).datetimepicker();
+			$( ".timepicker" ).datetimepicker({
+					format: 'LT'
+				});
+		});
+		</script>
+		
+		<!-- Multi Select --> 
+		<script src="assets/js/chosen.jquery.js" type="text/javascript"></script>
+		<script>
+        	$(".chosen-select").chosen();
+        </script>
+		<!-- Menu --> 
+		<script>
+			$('.navigation li ul').slideUp();
+			$(".navigation > li").click(function(){
+			  	$(this).find('ul').slideToggle();
+				$(this).find('a').css('background','url(assets/images/nav-icon-click.png) no-repeat center right 10px');
+				$(this).find('ul a').css('background','transparent')
+			});
+			if(window.innerWidth <= 767){
+				$('.navigation').slideUp();
+				$(".menu-icon").click(function(){
+					$('.navigation').slideToggle();
+				});
+			}
+			else{$('.navigation').slideDown();}
+		</script>
+	</body>
+</html>

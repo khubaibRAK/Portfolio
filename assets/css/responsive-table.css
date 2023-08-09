@@ -1,0 +1,48 @@
+
+.gen-table-1 {border-collapse: collapse;margin: 0;padding: 0;width: 100%;}
+.gen-table-1 tr {/*border-bottom: 1px solid #d3d3d3;*/}
+.gen-table-1 th, .gen-table-1 td {padding: 10px;vertical-align: top;}
+.gen-table-1 th {font: 14px 'arialbd';background: #2892dd;border: 1px solid #fff;border-bottom: 0;text-transform: uppercase;color: #fff;}
+.gen-table-1 th:nth-child(1) {border-left: 1px solid #eaeaea;text-align:center;}
+.gen-table-1 td:nth-child(1) {text-align:center;}
+.gen-table-1 th:nth-last-child(1) {border-right: 1px solid #eaeaea;}
+.gen-table-1 td:nth-last-child(1),.gen-table-1 th:nth-last-child(1){text-align:center;}
+.gen-table-1 td{border: 1px solid #d3d3d3;}
+
+.gen-table-2 {border-collapse: collapse;margin: 0;padding: 0;width: 100%;}
+.gen-table-2 tr {/*border-bottom: 1px solid #d3d3d3;*/}
+.gen-table-2 th, .gen-table-2 td {padding: 10px;vertical-align: middle;}
+.gen-table-2 th {font: 14px 'arialbd';background: #eaeaea;border: 1px solid #fff;border-bottom: 0;text-transform: uppercase;}
+.gen-table-2 th:nth-child(1) {border-left: 1px solid #eaeaea;text-align:center;}
+.gen-table-2 td:nth-child(1) {text-align:center;}
+.gen-table-2 th:nth-last-child(1) {border-right:1px solid #eaeaea;}
+.gen-table-2 td:nth-last-child(1),.gen-table-2 th:nth-last-child(1){text-align:center;}
+.gen-table-2 td{border: 1px solid #d3d3d3;}
+
+/* Bordered Table Css */
+.table-bordered th{text-align: center;}
+.table-bordered td{text-align: center;}
+
+
+@media (max-width: 1080px) {
+.gen-table-1 {border: 0;}  
+.gen-table-1 thead {border: none;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
+.gen-table-1 tr { border-bottom: 3px solid #ddd;display: block;margin-bottom: .625em;}
+.gen-table-1 td {border-bottom: 1px solid #ddd;display: block;text-align: right;}
+.gen-table-1 td::before {content: attr(data-label);float: left;font-weight: bold;color:#333;}
+.gen-table-1 td:last-child {border-bottom: 0;}
+.gen-table-1 td:nth-last-child(1),.gen-table-1 th:nth-last-child(1){text-align:right;}
+.gen-table-1 td{text-align:right !important;}
+	
+.gen-table-2 {border: 0;}  
+.gen-table-2 thead {border: none;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}
+.gen-table-2 tr { border-bottom: 3px solid #ddd;display: block;margin-bottom: .625em;}
+.gen-table-2 td {border-bottom: 1px solid #ddd;display: block;text-align: right;}
+.gen-table-2 td::before {content: attr(data-label);float: left;font-weight: bold;color:#333;}
+.gen-table-2 td:last-child {border-bottom: 0;}
+.gen-table-2 td:nth-last-child(1),.gen-table-2 th:nth-last-child(1){text-align:right;}
+.gen-table-2 td{text-align:right !important;}
+	
+/* Table Center Css */
+.gen-table-center th,.gen-table-center td{width: 100%;}
+}
